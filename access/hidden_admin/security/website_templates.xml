@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<!-- <template id="user_dropdown_saas" name="Main layout" inherit_id="portal.user_dropdown">
+    <xpath expr="//li" position="replace">
+        <li class="nav-item dropdown" t-ignore="true" t-if="not user_id._is_public()">
+	        <div class="dropdown-menu js_usermenu" role="menu">
+	            <a id="o_logout" class="dropdown-item" t-attf-href="/web/session/logout?redirect=/" role="menuitem">Logout</a>
+	        </div>
+	    </li>
+    </xpath>
+
+</template> -->
+
+</odoo>

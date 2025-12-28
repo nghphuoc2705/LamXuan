@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="wizard_payslip_report_view_form" model="ir.ui.view">
+        <field name="name">wizard.payslip.report.form</field>
+        <field name="model">wizard.payslip.report</field>
+        <field name="arch" type="xml">
+            <form>
+                <group invisible="0">
+                    <!-- <field name="state"/> -->
+                    <field name="name"/>
+                    <field name="payslip_ids"/>
+                </group>
+                <group>
+                    <field filename="name" invisible="state not in ['download']" name="xls_file" readonly="1"/>
+                </group>
+                <footer>
+                    <!-- <button class="oe_highlight" invisible="state not in ['choose']" name="print_instruction_xlsx" string="Print Instruction" type="object"/> -->
+                    <button class="oe_highlight" invisible="state not in ['choose']" name="print_report_xls" string="Print Payslip Excel" type="object"/>
+                    <button class="oe_highlight" invisible="state not in ['choose']" name="print_report_pdf" string="Print PDF" type="object"/>
+                    <button class="oe_highlight" invisible="state not in ['download']" name="action_go_back" string="Back" type="object"/>
+                    or
+                    <button class="oe_link" special="cancel" string="Close"/>
+                </footer>
+            </form></field>
+    </record>
+
+    <record id="action_wizard_payslip_report" model="ir.actions.act_window">
+        <field name="name">Payslip Report</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">wizard.payslip.report</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+        <!-- TODO: check if we need this -->
+       <field name="binding_model_id" ref="hr_payroll.model_hr_payslip"/>
+    </record>
+
+    <menuitem id="payslip_menu_report_print"
+              action="action_wizard_payslip_report"
+              parent="hr.hr_menu_hr_reports"
+              sequence="1"/>
+
+</odoo>

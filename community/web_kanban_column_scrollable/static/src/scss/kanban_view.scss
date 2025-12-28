@@ -1,0 +1,28 @@
+.o_kanban_view {
+  .o_kanban_grouped {
+    height: 100%;
+
+    .o_kanban_group {
+      &:not(.o_column_folded) {
+        overflow-y: auto;
+        max-height: 100%;
+
+        &.o_kanban_has_progressbar {
+          position: relative;
+
+          .o_kanban_header {
+            position: sticky;
+            z-index: 2;
+            top: 0;
+            height: 65px;
+            background-color: $o-view-background-color;
+
+            .o_kanban_header_title {
+              margin-top: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}

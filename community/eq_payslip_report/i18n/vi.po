@@ -1,0 +1,265 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* eq_payslip_report
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-13 06:49+0000\n"
+"PO-Revision-Date: 2025-08-13 13:56+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: vi_VN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.6\n"
+
+#. module: eq_payslip_report
+#: model_terms:ir.ui.view,arch_db:eq_payslip_report.wizard_payslip_report_view_form
+msgid "* Click button to print Employee Payslip Report."
+msgstr "* Nhấp vào nút để in Bảng lương nhân viên."
+
+#. module: eq_payslip_report
+#: model_terms:ir.ui.view,arch_db:eq_payslip_report.wizard_payslip_report_view_form
+msgid "* Click button to print Instruction Report."
+msgstr "* Nhấp vào nút để in Bảng hướng dẫn."
+
+#. module: eq_payslip_report
+#: model:ir.model.fields.selection,name:eq_payslip_report.selection__hr_contract__payment_method__card
+msgid "ATM Card - Pay Card"
+msgstr "Thẻ ATM - Thẻ thanh toán"
+
+#. module: eq_payslip_report
+#: model_terms:ir.ui.view,arch_db:eq_payslip_report.wizard_payslip_report_view_form
+msgid "Back"
+msgstr "Quay lại"
+
+#. module: eq_payslip_report
+#: model:ir.model.fields.selection,name:eq_payslip_report.selection__hr_contract__payment_method__cash
+msgid "Cash"
+msgstr "Tiền mặt"
+
+#. module: eq_payslip_report
+#: model_terms:ir.ui.view,arch_db:eq_payslip_report.wizard_payslip_report_view_form
+msgid "Close"
+msgstr "Đóng"
+
+#. module: eq_payslip_report
+#: model:ir.model.fields.selection,name:eq_payslip_report.selection__hr_employee__current_employer__1
+msgid "Company"
+msgstr "Công ty"
+
+#. module: eq_payslip_report
+#: model:ir.model.fields,field_description:eq_payslip_report.field_wizard_payslip_report__create_uid
+msgid "Created by"
+msgstr "Được tạo bởi"
+
+#. module: eq_payslip_report
+#: model:ir.model.fields,field_description:eq_payslip_report.field_wizard_payslip_report__create_date
+msgid "Created on"
+msgstr "Được tạo vào"
+
+#. module: eq_payslip_report
+#: model:ir.model.fields,field_description:eq_payslip_report.field_hr_employee__current_sponsor
+msgid "Current Sponsor"
+msgstr "Nhà tài trợ hiện tại"
+
+#. module: eq_payslip_report
+#: model_terms:ir.ui.view,arch_db:eq_payslip_report.report_payslip_template
+msgid "Designation"
+msgstr "Tên gọi"
+
+#. module: eq_payslip_report
+#: model:ir.model.fields,field_description:eq_payslip_report.field_wizard_payslip_report__display_name
+msgid "Display Name"
+msgstr "Tên hiển thị"
+
+#. module: eq_payslip_report
+#: model:ir.model.fields,field_description:eq_payslip_report.field_wizard_payslip_report__xls_file
+msgid "Download"
+msgstr "Tải xuống"
+
+#. module: eq_payslip_report
+#: model:ir.model,name:eq_payslip_report.model_hr_employee
+#: model_terms:ir.ui.view,arch_db:eq_payslip_report.report_payslip_template
+msgid "Employee"
+msgstr "Nhân viên"
+
+#. module: eq_payslip_report
+#: model:ir.model,name:eq_payslip_report.model_hr_contract
+msgid "Employee Contract"
+msgstr "Hợp đồng lao động"
+
+#. module: eq_payslip_report
+#: model:ir.model.fields.selection,name:eq_payslip_report.selection__hr_employee__current_employer__0
+msgid "Family"
+msgstr "Gia đình"
+
+#. module: eq_payslip_report
+#: model:ir.model.fields,field_description:eq_payslip_report.field_wizard_payslip_report__name
+msgid "File name"
+msgstr "Tên tập tin"
+
+#. module: eq_payslip_report
+#: model:ir.model.fields,field_description:eq_payslip_report.field_hr_employee__health_card_expiration_date
+msgid "HMC Expiration Date"
+msgstr "Ngày hết hạn bảo hiểm y tế"
+
+#. module: eq_payslip_report
+#: model:ir.model.fields,field_description:eq_payslip_report.field_hr_employee__health_card_no
+msgid "HMC No"
+msgstr "Số thẻ bảo hiểm y tế"
+
+#. module: eq_payslip_report
+#: model:ir.model.fields,field_description:eq_payslip_report.field_wizard_payslip_report__id
+msgid "ID"
+msgstr "ID"
+
+#. module: eq_payslip_report
+#: model:ir.model.fields,field_description:eq_payslip_report.field_hr_employee__join_date
+msgid "Join Date"
+msgstr "Ngày gia nhập"
+
+#. module: eq_payslip_report
+#: model:ir.model.fields,field_description:eq_payslip_report.field_wizard_payslip_report__write_uid
+msgid "Last Updated by"
+msgstr "Cập nhật lần cuối bởi"
+
+#. module: eq_payslip_report
+#: model:ir.model.fields,field_description:eq_payslip_report.field_wizard_payslip_report__write_date
+msgid "Last Updated on"
+msgstr "Cập nhật lần cuối"
+
+#. module: eq_payslip_report
+#: model_terms:ir.ui.view,arch_db:eq_payslip_report.report_payslip_template
+msgid "No #"
+msgstr "Số #"
+
+#. module: eq_payslip_report
+#: model:ir.model.fields.selection,name:eq_payslip_report.selection__hr_employee__current_employer__3
+msgid "Other"
+msgstr "Khác"
+
+#. module: eq_payslip_report
+#: model:ir.model.fields,field_description:eq_payslip_report.field_hr_employee__passport_expiration_date
+msgid "Passport Expiration Date"
+msgstr "Ngày hết hạn hộ chiếu"
+
+#. module: eq_payslip_report
+#: model_terms:ir.ui.view,arch_db:eq_payslip_report.report_payslip_template
+msgid "Payment Method"
+msgstr "Phương thức thanh toán"
+
+#. module: eq_payslip_report
+#: model:ir.model.fields,field_description:eq_payslip_report.field_hr_contract__payment_method
+msgid "Payment Mode"
+msgstr "Chế độ thanh toán"
+
+#. module: eq_payslip_report
+#: model:ir.actions.report,name:eq_payslip_report.action_print_payslip
+msgid "Payslip"
+msgstr "Phiếu lương"
+
+#. module: eq_payslip_report
+#: model_terms:ir.ui.view,arch_db:eq_payslip_report.report_payslip_template
+msgid "Payslip Ref"
+msgstr "Phiếu lương"
+
+#. module: eq_payslip_report
+#: model:ir.model.fields,field_description:eq_payslip_report.field_wizard_payslip_report__payslip_ids
+msgid "Payslip Ref."
+msgstr "Mã phiếu lương."
+
+#. module: eq_payslip_report
+#: model:ir.actions.act_window,name:eq_payslip_report.action_wizard_payslip_report
+#: model:ir.ui.menu,name:eq_payslip_report.payslip_menu_report_print
+msgid "Payslip Report"
+msgstr "Báo cáo phiếu lương"
+
+#. module: eq_payslip_report
+#: model_terms:ir.ui.view,arch_db:eq_payslip_report.report_payslip_template
+msgid "Period"
+msgstr "Kỳ"
+
+#. module: eq_payslip_report
+#: model_terms:ir.ui.view,arch_db:eq_payslip_report.wizard_payslip_report_view_form
+msgid "Print Instruction"
+msgstr "In bảng tổng hợp"
+
+#. module: eq_payslip_report
+#: model_terms:ir.ui.view,arch_db:eq_payslip_report.wizard_payslip_report_view_form
+msgid "Print PDF"
+msgstr "In PDF"
+
+#. module: eq_payslip_report
+#: model_terms:ir.ui.view,arch_db:eq_payslip_report.wizard_payslip_report_view_form
+msgid "Print Payslip Excel"
+msgstr "In phiếu lương Excel"
+
+#. module: eq_payslip_report
+#: model_terms:ir.ui.view,arch_db:eq_payslip_report.report_payslip_template
+msgid "QID"
+msgstr "QID"
+
+#. module: eq_payslip_report
+#: model:ir.model.fields,field_description:eq_payslip_report.field_hr_employee__work_permit_expiration_date
+msgid "QID Expiration Date"
+msgstr "Ngày hết hạn giấy phép lao động"
+
+#. module: eq_payslip_report
+#: model:ir.model.fields,field_description:eq_payslip_report.field_hr_employee__permit_no
+msgid "QID No"
+msgstr "Số giấy phép LĐ"
+
+#. module: eq_payslip_report
+#: model_terms:ir.ui.view,arch_db:eq_payslip_report.report_payslip_template
+msgid "Sponsor"
+msgstr "Đơn vị bảo lãnh"
+
+#. module: eq_payslip_report
+#: model:ir.model.fields,field_description:eq_payslip_report.field_hr_employee__current_employer
+msgid "Sponsorship Type"
+msgstr "Loại bảo lãnh"
+
+#. module: eq_payslip_report
+#: model:ir.model.fields,field_description:eq_payslip_report.field_wizard_payslip_report__state
+msgid "Status"
+msgstr "Tình trạng"
+
+#. module: eq_payslip_report
+#: model_terms:ir.ui.view,arch_db:eq_payslip_report.report_payslip_template
+msgid "Total"
+msgstr "Tổng"
+
+#. module: eq_payslip_report
+#: model:ir.model,name:eq_payslip_report.model_wizard_payslip_report
+msgid "Wizard Payslip Report"
+msgstr "Tính năng in Bảng lương"
+
+#. module: eq_payslip_report
+#: model:ir.model.fields.selection,name:eq_payslip_report.selection__wizard_payslip_report__state__choose
+msgid "choose"
+msgstr "chọn"
+
+#. module: eq_payslip_report
+#: model:ir.model.fields.selection,name:eq_payslip_report.selection__wizard_payslip_report__state__download
+msgid "download"
+msgstr "tải về"
+
+#. module: eq_payslip_report
+#: model_terms:ir.ui.view,arch_db:eq_payslip_report.wizard_payslip_report_view_form
+msgid "or"
+msgstr "hoặc"
+
+#. module: eq_payslip_report
+#: model:ir.model,name:eq_payslip_report.model_report_eq_payslip_report_report_payslip_template
+msgid "report.eq_payslip_report.report_payslip_template"
+msgstr "report.eq_payslip_report.report_payslip_template"
+
+#. module: eq_payslip_report
+#: model_terms:ir.ui.view,arch_db:eq_payslip_report.report_payslip_template
+msgid "to"
+msgstr "đến"

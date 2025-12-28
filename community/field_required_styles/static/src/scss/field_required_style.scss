@@ -1,0 +1,21 @@
+$required_field :#e15050;
+
+//.o_required_modifier {
+//    &.o_input, .o_input {
+//        border-bottom: 2px solid $required_field;
+//        }
+//}
+.field_required_input{
+     border-bottom: 2px solid $required_field;
+}
+.field_required_label{
+    color: $required_field;
+
+}
+.field_required_label_after:after{
+  color: $required_field;
+   content: '*';
+}
+//.field_required_title{
+//    color: $required_field;
+//}

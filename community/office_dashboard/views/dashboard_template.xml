@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <template id="dashboard_template" name="Office Dashboard">
+    <t t-call="website.layout">
+      <t t-set="title">Dashboard Văn Phòng Điện Tử</t>
+      <div class="o_container">
+        <div class="sidebar">
+          <h3>Menu hệ thống</h3>
+          <ul>
+            <li>Văn bản đến</li>
+            <li>Văn bản đi</li>
+            <li>Tờ trình</li>
+            <li>Dự án</li>
+            <li>Nhân sự</li>
+            <li>Chấm công</li>
+          </ul>
+        </div>
+
+        <div class="main-content">
+          <h2>Thông báo nhanh</h2>
+          <div class="quick-stats">
+            <div class="stat-box">
+              <h4>Cổng thông tin nội bộ</h4>
+              <p>Tin nóng: Chính sách làm việc mới từ 01/07</p>
+            </div>
+            <div class="stat-box">
+              <h4>Tờ trình chờ duyệt</h4>
+              <p>5 tờ trình đang chờ duyệt</p>
+            </div>
+            <div class="stat-box">
+              <h4>Dự án quá hạn</h4>
+              <p>2 dự án đã quá thời hạn</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="right-panel">
+          <h3>Truy cập nhanh</h3>
+          <a href="#" class="app-link">Kế toán</a>
+          <a href="#" class="app-link">CRM</a>
+          <a href="#" class="app-link">Kho</a>
+          <a href="#" class="app-link">Dự án</a>
+          <a href="#" class="app-link">Quản lý nhân sự</a>
+        </div>
+      </div>
+    </t>
+  </template>
+</odoo>

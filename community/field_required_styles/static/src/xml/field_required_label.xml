@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+@author:liminghui
+@file:field_required_lable.xml
+@createDate:2024/11/18 下午4:07
+-->
+<templates id="template" xml:space="preserve">
+    <t t-inherit="web.FormLabel" t-inherit-mode="extension">
+        <xpath expr="//label" position="attributes">
+            <attribute name="t-attf-class">{{this.props.fieldInfo.required?'field_required_label_after':''}}</attribute>
+        </xpath>
+    </t>
+    <t t-inherit="web.FormView" t-inherit-mode="extension">
+        <xpath expr="//div[@class='o_form_view_container']" position="before">
+            <script type="text/javascript" src="/field_required_styles/static/src/js/field_required_title.js"/>
+        </xpath>
+    </t>
+</templates>

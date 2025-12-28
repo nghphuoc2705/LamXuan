@@ -1,0 +1,477 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* access_limit_records_number
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-25 02:26+0000\n"
+"PO-Revision-Date: 2020-11-25 09:35+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: vi_VN\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__help
+msgid "Action Description"
+msgstr "Mô tả hành động"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__name
+msgid "Action Name"
+msgstr "Tên hành động"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__state
+msgid "Action To Do"
+msgstr "Cần thực hiện"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__type
+msgid "Action Type"
+msgstr "Loại hành động"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__active
+msgid "Active"
+msgstr "Hoạt động"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__activity_type_id
+msgid "Activity"
+msgstr "Hoạt động"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__activity_user_type
+msgid "Activity User Type"
+msgstr "Kiểu tài khoản hoạt động"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__channel_ids
+msgid "Add Channels"
+msgstr "Thêm kênh"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__partner_ids
+msgid "Add Followers"
+msgstr "Thêm Người theo dõi"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__filter_domain
+msgid "Apply on"
+msgstr "Áp dụng cho"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__action_rule_id
+msgid "Base Automation"
+msgstr "Tự động cơ bản"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__filter_pre_domain
+msgid "Before Update Domain"
+msgstr "Trước khi cập nhật miền"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__binding_model_id
+msgid "Binding Model"
+msgstr "Đối tượng Binding"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__binding_type
+msgid "Binding Type"
+msgstr "Loại Binding"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__binding_view_types
+msgid "Binding View Types"
+msgstr "Loại giao diện Binding"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__child_ids
+msgid "Child Actions"
+msgstr "Tác vụ con"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,help:access_limit_records_number.field_base_limit_records_number__child_ids
+msgid ""
+"Child server actions that will be executed. Note that the last return returned action value will be used as global return value."
+msgstr ""
+"Các tác vụ máy chủ con sẽ được thực thi. Lưu ý rằng giá trị hành động trả về cuối cùng sẽ được sử dụng làm giá trị trả về toàn "
+"cục."
+
+#. module: access_limit_records_number
+#: model:res.groups,name:access_limit_records_number.group_control_limits_on_records_number
+msgid "Control limits on records number"
+msgstr "Kiểm soát giới hạn về lượng dữ liệu"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__create_uid
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number_test__create_uid
+msgid "Created by"
+msgstr "Được tạo bởi"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__create_date
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number_test__create_date
+msgid "Created on"
+msgstr "Thời điểm tạo"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,help:access_limit_records_number.field_base_limit_records_number__trg_date_range
+msgid ""
+"Delay after the trigger date.\n"
+"                                    You can put a negative number if you need a delay before the\n"
+"                                    trigger date, like sending a reminder 15 minutes before a meeting."
+msgstr ""
+"Trì hoãn sau ngày kích hoạt.\n"
+"                                     Bạn có thể đặt một số âm nếu bạn cần một sự chậm trễ trước khi\n"
+"                                     ngày kích hoạt, như gửi lời nhắc 15 phút trước cuộc họp."
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__trg_date_range
+msgid "Delay after trigger date"
+msgstr "Trì hoãn sau ngày kích hoạt"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__trg_date_range_type
+msgid "Delay type"
+msgstr "Dạng trì hoãn"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__display_name
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number_test__display_name
+msgid "Display Name"
+msgstr "Tên hiển thị"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__domain
+msgid "Domain"
+msgstr "Domain"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__activity_date_deadline_range
+msgid "Due Date In"
+msgstr "Ngày đáo hạn"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__activity_date_deadline_range_type
+msgid "Due type"
+msgstr "Loại thời hạn"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__template_id
+msgid "Email Template"
+msgstr "Mẫu email"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__xml_id
+msgid "External ID"
+msgstr "External ID"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,help:access_limit_records_number.field_base_limit_records_number__on_change_field_ids
+msgid "Fields that trigger the onchange."
+msgstr "Các trường kích hoạt sự thay đổi."
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__groups_id
+msgid "Groups"
+msgstr "Nhóm"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__id
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number_test__id
+msgid "ID"
+msgstr "ID"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,help:access_limit_records_number.field_base_limit_records_number__filter_domain
+msgid "If present, this condition must be satisfied before executing the action rule."
+msgstr "Nếu có, điều kiện này phải được thỏa mãn trước khi thực hiện quy tắc hành động."
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,help:access_limit_records_number.field_base_limit_records_number__filter_pre_domain
+msgid "If present, this condition must be satisfied before the update of the record."
+msgstr "Nếu có, điều kiện này phải được thỏa mãn trước khi cập nhật hồ sơ."
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number____last_update
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number_test____last_update
+msgid "Last Modified on"
+msgstr "Sửa lần cuối vào"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__last_run
+msgid "Last Run"
+msgstr "Chạy gần nhất"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__write_uid
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number_test__write_uid
+msgid "Last Updated by"
+msgstr "Cập nhật lần cuối bởi"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__write_date
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number_test__write_date
+msgid "Last Updated on"
+msgstr "Cập nhật lần cuối vào"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__least_delay_msg
+msgid "Least Delay Msg"
+msgstr "Ít chậm trễ nhất Msg"
+
+#. module: access_limit_records_number
+#: model:ir.module.category,name:access_limit_records_number.module_access_limit_records_number_category
+msgid "Limit records number"
+msgstr "Giới hạn số lượng dữ liệu"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__link_field_id
+msgid "Link Field"
+msgstr "Trường liên kết"
+
+#. module: access_limit_records_number
+#: code:addons/access_limit_records_number/models.py:0
+#, python-format
+msgid ""
+"Maximimum allowed records in table \"%(model_name)s\" is %(max_records)s, while after this update you would have "
+"%(records_count)s"
+msgstr ""
+"Lượng dữ liệu tối đa được phép trong bảng \"%(model_name)s\" là %(max_records)s, trong khi sau khi cập nhật này, bạn sẽ có "
+"%(records_count)s"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__max_records
+msgid "Maximum Records"
+msgstr "Dữ liệu tối đa"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__model_id
+msgid "Model"
+msgstr "Đối tượng"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__model_name
+msgid "Model Name"
+msgstr "Tên đối tượng"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,help:access_limit_records_number.field_base_limit_records_number__crud_model_id
+msgid "Model for record creation / update. Set this field only to specify a different model than the base model."
+msgstr "Đối tượng để tạo / cập nhật hồ sơ. Chỉ chọn trường này để chỉ định một đối tượng khác với đối tượng gốc."
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,help:access_limit_records_number.field_base_limit_records_number__model_id
+msgid "Model on which the server action runs."
+msgstr "Đối tượng chạy trên máy chủ."
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number_test__name
+msgid "Name"
+msgstr "Tên"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__activity_note
+msgid "Note"
+msgstr "Ghi chú"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__on_change_field_ids
+msgid "On Change Fields Trigger"
+msgstr "Khi kích hoạt trường thay đổi"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,help:access_limit_records_number.field_base_limit_records_number__help
+msgid "Optional help text for the users with a description of the target view, such as its usage and purpose."
+msgstr ""
+"Văn bản trợ giúp tùy chọn cho người dùng có mô tả về chế độ xem mục tiêu, chẳng hạn như mục đích sử dụng và mục đích của nó."
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,help:access_limit_records_number.field_base_limit_records_number__link_field_id
+msgid "Provide the field used to link the newly created record on the record used by the server action."
+msgstr "Cung cấp trường được sử dụng để liên kết bản ghi mới được tạo trên bản ghi được sử dụng bởi hành động máy chủ."
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__code
+msgid "Python Code"
+msgstr "Mã Python"
+
+#. module: access_limit_records_number
+#: model_terms:ir.ui.view,arch_db:access_limit_records_number.base_limit_view_form
+#: model_terms:ir.ui.view,arch_db:access_limit_records_number.base_limit_view_search
+msgid "Records Number"
+msgstr "Số dữ liệu"
+
+#. module: access_limit_records_number
+#: model:ir.actions.act_window,name:access_limit_records_number.base_limit_act
+#: model:ir.ui.menu,name:access_limit_records_number.menu_base_limit_act
+msgid "Records Number Limits"
+msgstr "Giới hạn số lượng dữ liệu"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__activity_user_id
+msgid "Responsible"
+msgstr "Người phụ trách"
+
+#. module: access_limit_records_number
+#: model:ir.model,name:access_limit_records_number.model_base_limit_records_number
+msgid "Restrictions for number of records"
+msgstr "Hạn chế số lượng dữ liệu"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__sequence
+msgid "Sequence"
+msgstr "Mã"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__action_server_id
+msgid "Server Actions"
+msgstr "Tác vụ máy chủ"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,help:access_limit_records_number.field_base_limit_records_number__binding_model_id
+msgid "Setting a value makes this action available in the sidebar for the given model."
+msgstr "Đặt giá trị làm cho hành động này có sẵn trong thanh bên cho mô hình đã cho."
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__activity_summary
+msgid "Summary"
+msgstr "Tổng kết"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__crud_model_id
+msgid "Target Model"
+msgstr "Đối tượng mục tiêu"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__crud_model_name
+msgid "Target Model Name"
+msgstr "Tên đối tượng mục tiêu"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,help:access_limit_records_number.field_base_limit_records_number__activity_user_field_name
+msgid "Technical name of the user on the record"
+msgstr "Tên kĩ thuật của người dùng trên dữ liệu"
+
+#. module: access_limit_records_number
+#: model:ir.model,name:access_limit_records_number.model_base_limit_records_number_test
+msgid "Test model to test access"
+msgstr "Mô hình thử nghiệm để kiểm tra quyền truy cập"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,help:access_limit_records_number.field_base_limit_records_number__trigger_field_ids
+msgid "The action will be triggered if and only if one of these fields is updated.If empty, all fields are watched."
+msgstr ""
+"Hành động sẽ được kích hoạt nếu và chỉ khi một trong các trường này được cập nhật. Nếu trống, tất cả các trường đều được theo "
+"dõi."
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__trigger
+msgid "Trigger"
+msgstr "Bộ khởi động"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__trg_date_id
+msgid "Trigger Date"
+msgstr "Ngày kích hoạt"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__trigger_field_ids
+msgid "Trigger Fields"
+msgstr "Trường kích hoạt"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,help:access_limit_records_number.field_base_limit_records_number__state
+msgid ""
+"Type of server action. The following values are available:\n"
+"- 'Execute Python Code': a block of python code that will be executed\n"
+"- 'Create': create a new record with new values\n"
+"- 'Update a Record': update the values of a record\n"
+"- 'Execute several actions': define an action that triggers several other server actions\n"
+"- 'Send Email': automatically send an email (Discuss)\n"
+"- 'Add Followers': add followers to a record (Discuss)\n"
+"- 'Create Next Activity': create an activity (Discuss)"
+msgstr ""
+"Loại tác vụ của máy chủ. Dưới đây là các giá trị hiện có:\n"
+"- 'Dùng mã Python': thực thi một đoạn mã python\n"
+"- 'Tạo': tạo dữ liệu mới với giá trị mới\n"
+"- 'Cập nhật dữ liệu': cập nhật dữ liệu\n"
+"- 'Thực thi các tác vụ khác': quy định một hành động Kích hoạt các hoạt động khác\n"
+"- 'Gửi Email': tự động gửi email (trong Thảo luận)\n"
+"- 'Thêm người theo dõi': thêm người theo dõi (trong Thảo luận)\n"
+"- 'Tạo hoạt động kế tiếp': tạo hoạt động ( trong Thảo luận)"
+
+#. module: access_limit_records_number
+#: model_terms:ir.ui.view,arch_db:access_limit_records_number.base_limit_view_search
+msgid "Unlimited Table"
+msgstr "Bảng không giới hạn"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__usage
+msgid "Usage"
+msgstr "Cách dùng"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,help:access_limit_records_number.field_base_limit_records_number__activity_user_type
+msgid ""
+"Use 'Specific User' to always assign the same user on the next activity. Use 'Generic User From Record' to specify the field "
+"name of the user to choose on the record."
+msgstr ""
+"Dùng thông tin 'Người dùng cụ thể' để luôn chỉ định cùng một người dùng cho hoạt động tiếp theo. Sử dụng 'Người dùng chung từ dữ "
+"liệu' để chỉ định tên trường của người dùng sẽ chọn trên dữ liệu."
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__trg_date_calendar_id
+msgid "Use Calendar"
+msgstr "Dùng lịch"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__activity_user_field_name
+msgid "User field name"
+msgstr "Tên trường người dùng"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,field_description:access_limit_records_number.field_base_limit_records_number__fields_lines
+msgid "Value Mapping"
+msgstr "Giá trị tương ứng"
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,help:access_limit_records_number.field_base_limit_records_number__trg_date_calendar_id
+msgid "When calculating a day-based timed condition, it is possible to use a calendar to compute the date based on working days."
+msgstr "Khi tính toán điều kiện theo thời gian dựa trên ngày, có thể sử dụng lịch để tính toán ngày dựa trên ngày làm việc."
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,help:access_limit_records_number.field_base_limit_records_number__sequence
+msgid "When dealing with multiple actions, the execution order is based on the sequence. Low number means high priority."
+msgstr "Khi xử lý nhiều hành động, thứ tự thực hiện dựa trên chuỗi. Số thấp có nghĩa là ưu tiên cao."
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,help:access_limit_records_number.field_base_limit_records_number__trg_date_id
+msgid ""
+"When should the condition be triggered.\n"
+"                                  If present, will be checked by the scheduler. If empty, will be checked at creation and update."
+msgstr ""
+"Khi nào thì điều kiện được kích hoạt.\n"
+"                                   Nếu có, sẽ được kiểm tra bởi người lên lịch. Nếu trống, sẽ được kiểm tra lúc tạo và cập nhật."
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,help:access_limit_records_number.field_base_limit_records_number__active
+msgid "When unchecked, the rule is hidden and will not be executed."
+msgstr "Khi không được chọn, quy tắc sẽ bị ẩn và sẽ không được thực thi."
+
+#. module: access_limit_records_number
+#: model:ir.model.fields,help:access_limit_records_number.field_base_limit_records_number__code
+msgid ""
+"Write Python code that the action will execute. Some variables are available for use; help about python expression is given in "
+"the help tab."
+msgstr ""
+"Viết mã Python mà hành động sẽ thực thi. Một số biến có sẵn để sử dụng; trợ giúp về biểu thức python được đưa ra trong tab trợ "
+"giúp."
