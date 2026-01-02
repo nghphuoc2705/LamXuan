@@ -1,0 +1,277 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sale_return
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-10 04:24+0000\n"
+"PO-Revision-Date: 2024-06-10 04:24+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sale_return
+#: model_terms:ir.ui.view,arch_db:sale_return.report_sale_return_document
+msgid "&amp;bull;"
+msgstr ""
+
+#. module: sale_return
+#: model_terms:ir.ui.view,arch_db:sale_return.report_sale_return_document
+msgid "&amp;nbsp;<span>on</span>&amp;nbsp;"
+msgstr "&amp;nbsp;<span>vào</span>&amp;nbsp;"
+
+#. module: sale_return
+#: model_terms:ir.ui.view,arch_db:sale_return.report_sale_return_document
+msgid "<strong>Fiscal Position Remark:</strong>"
+msgstr "<strong>Ghi chú vị thế tài chính:</strong>"
+
+#. module: sale_return
+#: model_terms:ir.ui.view,arch_db:sale_return.report_sale_return_document
+msgid "<strong>Mode Payment:</strong>"
+msgstr "<strong>Phương thức thanh toán:</strong>"
+
+#. module: sale_return
+#: model_terms:ir.ui.view,arch_db:sale_return.report_sale_return_document
+msgid "<strong>Payment Terms:</strong>"
+msgstr "<strong>Điều khoản thanh toán:</strong>"
+
+#. module: sale_return
+#: model_terms:ir.ui.view,arch_db:sale_return.report_sale_return_document
+msgid "<strong>Sale Return Date:</strong>"
+msgstr "<strong>Ngày trả hàng:</strong>"
+
+#. module: sale_return
+#: model_terms:ir.ui.view,arch_db:sale_return.report_sale_return_document
+msgid "<strong>Salesperson:</strong>"
+msgstr "<strong>Nhân viên bán hàng</strong>"
+
+#. module: sale_return
+#: model_terms:ir.ui.view,arch_db:sale_return.report_sale_return_document
+msgid "<strong>Shipping address:</strong>"
+msgstr "<strong>Địa chỉ giao hàng</strong>"
+
+#. module: sale_return
+#: model_terms:ir.ui.view,arch_db:sale_return.report_sale_return_document
+msgid "<strong>Subtotal: </strong>"
+msgstr "<strong>Tổng: </strong>"
+
+#. module: sale_return
+#: model_terms:ir.ui.view,arch_db:sale_return.report_sale_return_document
+msgid "<strong>Subtotal</strong>"
+msgstr "<strong>Thành tiền:</strong>"
+
+#. module: sale_return
+#: model_terms:ir.ui.view,arch_db:sale_return.report_sale_return_document
+msgid "<strong>Total</strong>"
+msgstr "<strong>Tổng</strong>"
+
+#. module: sale_return
+#: model_terms:ir.ui.view,arch_db:sale_return.report_sale_return_document
+msgid "<strong>Your Reference:</strong>"
+msgstr "<strong>Mã của bạn:</strong>"
+
+#. module: sale_return
+#: model_terms:ir.ui.view,arch_db:sale_return.report_sale_return_document
+msgid "Amount"
+msgstr "Tổng tiền"
+
+#. module: sale_return
+#: model:ir.model.fields.selection,name:sale_return.selection__sale_order__state_return__cancel
+msgid "Cancelled"
+msgstr "Đã hủy"
+
+#. module: sale_return
+#: model:ir.model.fields,field_description:sale_return.field_sale_order_line__qty_change
+msgid "Change"
+msgstr "Thay đổi"
+
+#. module: sale_return
+#: model:ir.model.fields,field_description:sale_return.field_sale_order_line__qty_changed_invoiced
+msgid "Change invoiced"
+msgstr "Hóa đơn thay đổi"
+
+#. module: sale_return
+#: model:ir.model.fields,field_description:sale_return.field_sale_order_line__qty_changed_to_invoice
+msgid "Change to invoice"
+msgstr "Thay đổi chờ hóa đơn"
+
+#. module: sale_return
+#: model:ir.model.fields,field_description:sale_return.field_sale_order_line__qty_changed
+msgid "Changed"
+msgstr "Đã thay đổi"
+
+#. module: sale_return
+#: model_terms:ir.ui.view,arch_db:sale_return.view_order_form_sale_return
+msgid "Confirm"
+msgstr "Xác nhận"
+
+#. module: sale_return
+#: model_terms:ir.ui.view,arch_db:sale_return.view_order_form_sale_return
+msgid "Confirm Return"
+msgstr "Xác nhận trả"
+
+#. module: sale_return
+#: model_terms:ir.ui.view,arch_db:sale_return.report_sale_return_document
+msgid "Description"
+msgstr "Mô tả"
+
+#. module: sale_return
+#: model_terms:ir.ui.view,arch_db:sale_return.report_sale_return_document
+msgid "Disc.(%)"
+msgstr ""
+
+#. module: sale_return
+#: model:ir.model.fields.selection,name:sale_return.selection__sale_order__state_return__draft
+msgid "Draft Return"
+msgstr "Trả Hàng Nháp"
+
+#. module: sale_return
+#: model_terms:ir.ui.view,arch_db:sale_return.report_sale_return_document
+msgid "Draft Return #"
+msgstr "Trả Hàng Nháp #"
+
+#. module: sale_return
+#: model:ir.model.fields,field_description:sale_return.field_sale_order_line__qty_returned_invoiced
+msgid "Invoiced"
+msgstr "Đã xuất hóa đơn"
+
+#. module: sale_return
+#: model_terms:ir.ui.view,arch_db:sale_return.report_sale_return_document
+msgid "Invoicing address:"
+msgstr "Địa chỉ lên hoá đơn:"
+
+#. module: sale_return
+#: model_terms:ir.ui.view,arch_db:sale_return.report_sale_return_document
+msgid "Invoicing and shipping address:"
+msgstr "Địa chỉ giao hàng và xuất hoá đơn:"
+
+#. module: sale_return
+#: model:ir.model.fields,field_description:sale_return.field_sale_order__is_return
+#: model:ir.model.fields,field_description:sale_return.field_sale_order_line__is_return
+msgid "Is Return"
+msgstr "Là Trả hàng"
+
+#. module: sale_return
+#: model:ir.model.fields,field_description:sale_return.field_stock_move__is_return
+#: model_terms:ir.ui.view,arch_db:sale_return.view_sales_order_filter
+msgid "Is return"
+msgstr "Là trả hàng"
+
+#. module: sale_return
+#: model:ir.model.fields,field_description:sale_return.field_stock_move__is_change
+msgid "Is return change"
+msgstr "Là thay đổi trả hàng"
+
+#. module: sale_return
+#: model:ir.model.fields,field_description:sale_return.field_sale_order_line__location_id
+msgid "Location"
+msgstr "Địa điểm"
+
+#. module: sale_return
+#: model:ir.model.fields.selection,name:sale_return.selection__sale_order__state_return__done
+msgid "Locked"
+msgstr "Đã khóa"
+
+#. module: sale_return
+#: model_terms:ir.ui.view,arch_db:sale_return.report_sale_return_document
+#: model_terms:ir.ui.view,arch_db:sale_return.view_order_form_sale_return
+msgid "Quantity"
+msgstr "Số lượng"
+
+#. module: sale_return
+#: model_terms:ir.ui.view,arch_db:sale_return.report_sale_return_document
+msgid "Return #"
+msgstr "Đơn Trả Hàng #"
+
+#. module: sale_return
+#: model:ir.model.fields,field_description:sale_return.field_sale_order_line__qty_returned
+msgid "Returned"
+msgstr "Đã Trả"
+
+#. module: sale_return
+#: model:ir.model.fields,field_description:sale_return.field_sale_order_line__qty_returned_to_invoice
+msgid "Returned to invoice"
+msgstr "Trả hàng chờ hóa đơn"
+
+#. module: sale_return
+#: model_terms:ir.ui.view,arch_db:sale_return.view_sales_order_filter
+msgid "Returns"
+msgstr "Đơn Trả Hàng"
+
+#. module: sale_return
+#: model_terms:ir.ui.view,arch_db:sale_return.view_sales_order_filter
+msgid "Sale Order and Quotations"
+msgstr "Các Đơn hàng và Báo giá"
+
+#. module: sale_return
+#: model:ir.model.fields.selection,name:sale_return.selection__sale_order__state_return__sale
+msgid "Sale Return"
+msgstr "Đơn Trả Hàng"
+
+#. module: sale_return
+#: model:ir.model.fields,field_description:sale_return.field_sale_order__state_return
+msgid "Sale Return Status"
+msgstr "Trạng thái đơn trả hàng"
+
+#. module: sale_return
+#: model:ir.actions.act_window,name:sale_return.sale_order_return_action
+#: model:ir.ui.menu,name:sale_return.sale_return_menu
+msgid "Sale return"
+msgstr "Đơn Trả Hàng"
+
+#. module: sale_return
+#: model:ir.model,name:sale_return.model_sale_order
+msgid "Sales Order"
+msgstr "Đơn bán hàng"
+
+#. module: sale_return
+#: model:ir.model,name:sale_return.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Dòng đơn bán hàng"
+
+#. module: sale_return
+#: model:ir.model.fields.selection,name:sale_return.selection__sale_order__state_return__sent
+msgid "Sent Return"
+msgstr "Trả Hàng Đã Gửi"
+
+#. module: sale_return
+#: model_terms:ir.ui.view,arch_db:sale_return.view_order_form_sale_return
+msgid "Set to Draft"
+msgstr "Đặt về dự thảo"
+
+#. module: sale_return
+#: model:ir.model,name:sale_return.model_stock_move
+msgid "Stock Move"
+msgstr "Dịch chuyển tồn kho"
+
+#. module: sale_return
+#: model:ir.model,name:sale_return.model_stock_rule
+msgid "Stock Rule"
+msgstr "Quy tắc tồn kho"
+
+#. module: sale_return
+#: model_terms:ir.ui.view,arch_db:sale_return.report_sale_return_document
+msgid "Taxes"
+msgstr "Thuế"
+
+#. module: sale_return
+#: model_terms:ir.ui.view,arch_db:sale_return.report_sale_return_document
+msgid "Total Price"
+msgstr "Giá tổng"
+
+#. module: sale_return
+#: model_terms:ir.ui.view,arch_db:sale_return.report_sale_return_document
+msgid "Unit Price"
+msgstr "Đơn giá"
+
+#. module: sale_return
+#. odoo-python
+#: code:addons/sale_return/models/sale_order_line.py:0
+#, python-format
+msgid "You can not change more units of returned, at most you can return %s"
+msgstr "Bạn không thể trả hàng nhiều hơn số lượng bạn có thể trả là %s"
