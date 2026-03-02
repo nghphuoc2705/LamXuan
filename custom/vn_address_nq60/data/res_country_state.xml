@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+   <data noupdate="0">
+        
+        <record id="base.state_vn_VN-SG" model="res.country.state">
+            <!-- <field name="name">Thành phố Hồ Chí Minh</field> -->
+            <field name="map_with_state_ids" eval="[(4, ref('base.state_vn_VN-57')), (4, ref('base.state_vn_VN-43'))]"></field>
+        </record>
+
+        <record id="base.state_vn_VN-DN" model="res.country.state">
+            <!-- <field name="name">Thành phố Đà Nẵng</field> -->
+            <field name="map_with_state_ids" eval="[(4, ref('base.state_vn_VN-27'))]"></field>
+        </record>
+
+        <record id="base.state_vn_VN-HP" model="res.country.state">
+            <!-- <field name="name">Thành phố Hải Phòng</field> -->
+            <field name="map_with_state_ids" eval="[(4, ref('base.state_vn_VN-61'))]"></field>
+        </record>
+
+        <!-- <record id="base.state_vn_VN-03" model="res.country.state">
+            <field name="name">Tỉnh Hà Giang</field>
+        </record> -->
+        
+        <!-- <record id="base.state_vn_VN-53" model="res.country.state">
+            <field name="name">Tỉnh Bắc Kạn</field>
+        </record> -->
+
+        <record id="base.state_vn_VN-07" model="res.country.state">
+            <!-- <field name="name">Tỉnh Tuyên Quang</field> -->
+            <field name="map_with_state_ids" eval="[(4, ref('base.state_vn_VN-03'))]"></field>
+        </record>
+
+        <record id="base.state_vn_VN-02" model="res.country.state">
+            <!-- <field name="name">Tỉnh Lào Cai</field> -->
+            <field name="map_with_state_ids" eval="[(4, ref('base.state_vn_VN-06'))]"></field>
+        </record>
+
+        <!-- <record id="base.state_vn_VN-06" model="res.country.state">
+            <field name="name">Tỉnh Yên Bái</field>
+        </record> -->
+        <!-- <record id="base.state_vn_VN-14" model="res.country.state">
+            <field name="name">Tỉnh Hòa Bình</field>
+        </record> -->
+        <record id="base.state_vn_VN-69" model="res.country.state">
+            <!-- <field name="name">Tỉnh Thái Nguyên</field> -->
+            <field name="map_with_state_ids" eval="[(4, ref('base.state_vn_VN-53'))]"></field>
+        </record>
+        
+        <!-- <record id="base.state_vn_VN-54" model="res.country.state">
+            <field name="name">Tỉnh Bắc Giang</field>
+        </record> -->
+
+        <record id="base.state_vn_VN-68" model="res.country.state">
+            <!-- <field name="name">Tỉnh Phú Thọ</field> -->
+            <field name="map_with_state_ids" eval="[(4, ref('base.state_vn_VN-70')), (4, ref('base.state_vn_VN-14'))]"></field>
+        </record>
+
+        <!-- <record id="base.state_vn_VN-70" model="res.country.state">
+            <field name="name">Tỉnh Vĩnh Phúc</field>
+        </record> -->
+
+        <record id="base.state_vn_VN-56" model="res.country.state">
+            <!-- <field name="name">Tỉnh Bắc Ninh</field> -->
+            <field name="map_with_state_ids" eval="[(4, ref('base.state_vn_VN-54'))]"></field>
+        </record>
+
+        <!-- <record id="base.state_vn_VN-61" model="res.country.state">
+            <field name="name">Tỉnh Hải Dương</field>
+        </record> -->
+
+        <record id="base.state_vn_VN-66" model="res.country.state">
+            <!-- <field name="name">Tỉnh Hưng Yên</field> -->
+            <field name="map_with_state_ids" eval="[(4, ref('base.state_vn_VN-20'))]"></field>
+        </record>
+<!-- 
+        <record id="base.state_vn_VN-20" model="res.country.state">
+            <field name="name">Tỉnh Thái Bình</field>
+        </record> -->
+
+        <!-- <record id="base.state_vn_VN-63" model="res.country.state">
+            <field name="name">Tỉnh Hà Nam</field>
+        </record> -->
+
+        <!-- <record id="base.state_vn_VN-67" model="res.country.state">
+            <field name="name">Tỉnh Nam Định</field>
+        </record> -->
+
+        <record id="base.state_vn_VN-18" model="res.country.state">
+            <!-- <field name="name">Tỉnh Ninh Bình</field> -->
+            <field name="map_with_state_ids" eval="[(4, ref('base.state_vn_VN-67')), (4, ref('base.state_vn_VN-63'))]"></field>
+        </record>
+
+        <!-- <record id="base.state_vn_VN-24" model="res.country.state">
+            <field name="name">Tỉnh Quảng Bình</field>
+        </record> -->
+
+        <record id="base.state_vn_VN-25" model="res.country.state">
+            <!-- <field name="name">Tỉnh Quảng Trị</field> -->
+            <field name="map_with_state_ids" eval="[(4, ref('base.state_vn_VN-24'))]"></field>
+        </record>
+        <!-- <record id="base.state_vn_VN-26" model="res.country.state">
+            <field name="name">Tỉnh Thừa Thiên Huế</field>
+        </record> -->
+        <!-- <record id="base.state_vn_VN-27" model="res.country.state">
+            <field name="name">Tỉnh Quảng Nam</field>
+        </record> -->
+        <record id="base.state_vn_VN-29" model="res.country.state">
+            <!-- <field name="name">Tỉnh Quảng Ngãi</field> -->
+            <field name="map_with_state_ids" eval="[(4, ref('base.state_vn_VN-28'))]"></field>
+        </record>
+        <!-- <record id="base.state_vn_VN-31" model="res.country.state">
+            <field name="name">Tỉnh Bình Định</field>
+        </record> -->
+        <!-- <record id="base.state_vn_VN-32" model="res.country.state">
+            <field name="name">Tỉnh Phú Yên</field>
+        </record> -->
+        <record id="base.state_vn_VN-34" model="res.country.state">
+            <!-- <field name="name">Tỉnh Khánh Hòa</field> -->
+            <field name="map_with_state_ids" eval="[(4, ref('base.state_vn_VN-36'))]"></field>
+        </record>
+        <!-- <record id="base.state_vn_VN-36" model="res.country.state">
+            <field name="name">Tỉnh Ninh Thuận</field>
+        </record> -->
+        <!-- <record id="base.state_vn_VN-40" model="res.country.state">
+            <field name="name">Tỉnh Bình Thuận</field>
+        </record> -->
+        <!-- <record id="base.state_vn_VN-28" model="res.country.state">
+            <field name="name">Tỉnh Kon Tum</field>
+        </record> -->
+        <record id="base.state_vn_VN-30" model="res.country.state">
+            <!-- <field name="name">Tỉnh Gia Lai</field> -->
+            <field name="map_with_state_ids" eval="[(4, ref('base.state_vn_VN-31'))]"></field>
+        </record>
+        <record id="base.state_vn_VN-33" model="res.country.state">
+            <!-- <field name="name">Tỉnh Đắk Lắk</field> -->
+            <field name="map_with_state_ids" eval="[(4, ref('base.state_vn_VN-32'))]"></field>
+        </record>
+        <!-- <record id="base.state_vn_VN-72" model="res.country.state">
+            <field name="name">Tỉnh Đắk Nông</field>
+        </record> -->
+        <record id="base.state_vn_VN-35" model="res.country.state">
+            <!-- <field name="name">Tỉnh Lâm Đồng</field> -->
+            <field name="map_with_state_ids" eval="[(4, ref('base.state_vn_VN-72')), (4, ref('base.state_vn_VN-40'))]"></field>
+        </record>
+        <!-- <record id="base.state_vn_VN-58" model="res.country.state">
+            <field name="name">Tỉnh Bình Phước</field>
+        </record> -->
+        <record id="base.state_vn_VN-37" model="res.country.state">
+            <!-- <field name="name">Tỉnh Tây Ninh</field> -->
+            <field name="map_with_state_ids" eval="[(4, ref('base.state_vn_VN-41'))]"></field>
+        </record>
+        <!-- <record id="base.state_vn_VN-57" model="res.country.state">
+            <field name="name">Tỉnh Bình Dương</field>
+        </record> -->
+        <record id="base.state_vn_VN-39" model="res.country.state">
+            <!-- <field name="name">Tỉnh Đồng Nai</field> -->
+            <field name="map_with_state_ids" eval="[(4, ref('base.state_vn_VN-58'))]"></field>
+        </record>
+        <!-- <record id="base.state_vn_VN-43" model="res.country.state">
+            <field name="name">Tỉnh Bà Rịa - Vũng Tàu</field>
+        </record> -->
+        <!-- <record id="base.state_vn_VN-41" model="res.country.state">
+            <field name="name">Tỉnh Long An</field>
+        </record> -->
+        <!-- <record id="base.state_vn_VN-46" model="res.country.state">
+            <field name="name">Tỉnh Tiền Giang</field>
+        </record> -->
+        <!-- <record id="base.state_vn_VN-50" model="res.country.state">
+            <field name="name">Tỉnh Bến Tre</field>
+        </record> -->
+        <!-- <record id="base.state_vn_VN-51" model="res.country.state">
+            <field name="name">Tỉnh Trà Vinh</field>
+        </record> -->
+        <record id="base.state_vn_VN-49" model="res.country.state">
+            <!-- <field name="name">Tỉnh Vĩnh Long</field> -->
+            <field name="map_with_state_ids" eval="[(4, ref('base.state_vn_VN-50')), (4, ref('base.state_vn_VN-51'))]"></field>
+        </record>
+        <record id="base.state_vn_VN-45" model="res.country.state">
+            <!-- <field name="name">Tỉnh Đồng Tháp</field> -->
+            <field name="map_with_state_ids" eval="[(4, ref('base.state_vn_VN-46'))]"></field>
+        </record>
+        <record id="base.state_vn_VN-44" model="res.country.state">
+            <!-- <field name="name">Tỉnh An Giang</field> -->
+            <field name="map_with_state_ids" eval="[(4, ref('base.state_vn_VN-47'))]"></field>
+        </record>
+        <!-- <record id="base.state_vn_VN-47" model="res.country.state">
+            <field name="name">Tỉnh Kiên Giang</field>
+        </record> -->
+        <!-- <record id="base.state_vn_VN-73" model="res.country.state">
+            <field name="name">Tỉnh Hậu Giang</field>
+        </record> -->
+        <!-- <record id="base.state_vn_VN-52" model="res.country.state">
+            <field name="name">Tỉnh Sóc Trăng</field>
+        </record> -->
+        <record id="base.state_vn_VN-CT" model="res.country.state">
+            <!-- <field name="name">Thành phố Cần Thơ</field> -->
+            <field name="map_with_state_ids" eval="[(4, ref('base.state_vn_VN-73')), (4, ref('base.state_vn_VN-52'))]"></field>
+        </record>
+        <record id="base.state_vn_VN-55" model="res.country.state">
+            <field name="name">Tỉnh Bạc Liêu</field>
+        </record>
+        <record id="base.state_vn_VN-59" model="res.country.state">
+            <!-- <field name="name">Tỉnh Cà Mau</field> -->
+            <field name="map_with_state_ids" eval="[(4, ref('base.state_vn_VN-55'))]"></field>
+        </record>
+   </data>
+</odoo>

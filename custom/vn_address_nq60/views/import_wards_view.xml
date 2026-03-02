@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record model='ir.ui.view' id='view_import_wards_tree'>
+        <field name='name'>import.wards.tree</field>
+        <field name='model'>import.wards</field>
+        <field name='arch' type='xml'>
+            <list>
+                <field name="file_name" />
+            </list>
+        </field>
+    </record>
+
+    <record model='ir.ui.view' id='view_import_wards_form'>
+        <field name='name'>import.wards.form</field>
+        <field name='model'>import.wards</field>
+        <field name='arch' type='xml'>
+            <form >
+                <header>
+                    <button name="action_import" string="Import" type="object" class="btn-primary"/>
+                    <button name="action_load" string="Load" type="object"/> 
+                </header>
+                <sheet>
+                    <group>
+                    <group>
+                        <field name="file_name" invisible="1"/>
+                        <field name="file_import" widget="file" filename="file_name" required="1" />
+                    </group>
+                    </group>
+                    <notebook>
+                        <page string="Wards">
+                            <field name="line_ids">
+                                <list editable="bottom" delete="0" limit="80" create="0">
+                                    <field name="stt" readonly="1"/>
+                                    <field name="name" readonly="1"/>
+                                    <field name="state_name" readonly="1"/>
+                                    <field name="state_id" options="{'no_open': True, 'no_create': True}"/>
+                                    <field name="map_with_state_ids" widget="many2many_tags" readonly="1"/>
+                                    <field name="wards_id" 
+                                        options="{'no_open': True, 'no_create': True}"
+                                        domain="['|',('state_id', 'in', map_with_state_ids),('state_id', '=', state_id)]"/>
+                                    <button name="create_wards" 
+                                        attrs="{'invisible': [('wards_id', '=', False)]}"
+                                        string="Create" type="object" class="btn-primary"/>
+                                </list>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_import_wards" model="ir.actions.act_window">
+        <field name="name">Import wards</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">import.wards</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="menu_import_wards" name="Import wards" action="action_import_wards" 
+        parent="contacts.res_partner_menu_config"
+        sequence="6"
+    />
+</odoo>        

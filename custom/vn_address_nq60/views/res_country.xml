@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record model='ir.ui.view' id='view_country_state_tree'>
+        <field name='name'>res.country.state.tree</field>
+        <field name='model'>res.country.state</field>
+        <field name="inherit_id" ref='base.view_country_state_tree'></field>
+        <field name='arch' type='xml'>
+            <list position="inside">
+                <field name="map_with_state_ids" context="{'search_default_active_test': False}" 
+                    invisible="0" widget="many2many_tags"/>
+                <field name="active" invisible="0" />
+                <button name="action_merge_state_nq60" string="Merge" type="object" class="btn-primary" />
+            </list>
+        </field>
+    </record>
+
+    <record model='ir.ui.view' id='res_country_wards_tree'>
+        <field name='name'>res.country.wards.tree</field>
+        <field name='model'>res.country.wards</field>
+        <field name="inherit_id" ref='biz_vn_address.res_country_wards_tree'></field>
+        <field name='arch' type='xml'>
+            <field name="district_id" position="attributes" >
+                <attribute name='invisible'>True</attribute>
+            </field>
+            <field name="code" position="after">
+                <field name="is_new" invisible="0" />
+                <field name="map_with_wards_ids" widget="many2many_tags" 
+                    domain="[('is_new', '=', False),'|',('state_id', '=', state_id),('state_id', 'in', map_with_state_ids)]"
+                    invisible="0"
+                />
+                <field name="map_with_state_ids" widget="many2many_tags" invisible="1"/> 
+                <button name="action_merge_wards"  
+                    invisible="not is_new"
+                    string="Merge" type="object" class="btn-primary" />
+            </field>
+        </field>
+    </record>
+</odoo>        

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+   <data noupdate="0">
+    <record id="import_vn_address" model="import.wards">
+        <field name="file_import" type="base64" file="vn_address_nq60/data/danh-muc-3321-xa-phuong.xlsx" ></field>
+        <field name="file_name">Import Wards</field>
+    </record>
+</data>
+</odoo>

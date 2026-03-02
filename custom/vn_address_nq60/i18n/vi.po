@@ -1,0 +1,185 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* vn_address_nq60
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-04 01:30+0000\n"
+"PO-Revision-Date: 2025-07-04 08:32+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: vi\n"
+"X-Generator: Poedit 2.3\n"
+
+#. module: vn_address_nq60
+#: model:ir.model.fields,field_description:vn_address_nq60.field_res_country_district__active
+#: model:ir.model.fields,field_description:vn_address_nq60.field_res_country_state__active
+#: model:ir.model.fields,field_description:vn_address_nq60.field_res_country_wards__active
+msgid "Active"
+msgstr "Hiệu lực"
+
+#. module: vn_address_nq60
+#: model:ir.model,name:vn_address_nq60.model_res_partner
+msgid "Contact"
+msgstr "Liên hệ"
+
+#. module: vn_address_nq60
+#: model:ir.model,name:vn_address_nq60.model_res_country
+msgid "Country"
+msgstr "Quốc gia"
+
+#. module: vn_address_nq60
+#: model:ir.model,name:vn_address_nq60.model_res_country_state
+msgid "Country state"
+msgstr "Bang/Tỉnh"
+
+#. module: vn_address_nq60
+#: model_terms:ir.ui.view,arch_db:vn_address_nq60.view_import_wards_form
+msgid "Create"
+msgstr "Tạo"
+
+#. module: vn_address_nq60
+#: model:ir.model.fields,field_description:vn_address_nq60.field_import_wards__create_uid
+#: model:ir.model.fields,field_description:vn_address_nq60.field_import_wards_line__create_uid
+msgid "Created by"
+msgstr "Tạo bởi"
+
+#. module: vn_address_nq60
+#: model:ir.model.fields,field_description:vn_address_nq60.field_import_wards__create_date
+#: model:ir.model.fields,field_description:vn_address_nq60.field_import_wards_line__create_date
+msgid "Created on"
+msgstr "Thời điểm tạo"
+
+#. module: vn_address_nq60
+#: model:ir.model.fields,field_description:vn_address_nq60.field_import_wards__display_name
+#: model:ir.model.fields,field_description:vn_address_nq60.field_import_wards_line__display_name
+msgid "Display Name"
+msgstr "Tên hiển thị"
+
+#. module: vn_address_nq60
+#: model:ir.model,name:vn_address_nq60.model_res_country_district
+msgid "District"
+msgstr "Quận/Huyện"
+
+#. module: vn_address_nq60
+#. odoo-python
+#: code:addons/vn_address_nq60/models/import_wards.py:0
+#, python-format
+msgid "Error reading XLSX file: %s"
+msgstr "Lỗi đọc file XLSX: %s"
+
+#. module: vn_address_nq60
+#: model:ir.model.fields,field_description:vn_address_nq60.field_import_wards__file_import
+msgid "File Import"
+msgstr "Nhập file"
+
+#. module: vn_address_nq60
+#: model:ir.model.fields,field_description:vn_address_nq60.field_import_wards__file_name
+msgid "File Name"
+msgstr "Tên file"
+
+#. module: vn_address_nq60
+#: model:ir.model.fields,field_description:vn_address_nq60.field_import_wards__id
+#: model:ir.model.fields,field_description:vn_address_nq60.field_import_wards_line__id
+msgid "ID"
+msgstr ""
+
+#. module: vn_address_nq60
+#: model_terms:ir.ui.view,arch_db:vn_address_nq60.view_import_wards_form
+msgid "Import"
+msgstr "Nhập"
+
+#. module: vn_address_nq60
+#: model:ir.model,name:vn_address_nq60.model_import_wards
+#: model:ir.model.fields,field_description:vn_address_nq60.field_import_wards_line__import_wards_id
+msgid "Import Wards"
+msgstr ""
+
+#. module: vn_address_nq60
+#: model:ir.model,name:vn_address_nq60.model_import_wards_line
+msgid "Import Wards Line"
+msgstr ""
+
+#. module: vn_address_nq60
+#: model:ir.actions.act_window,name:vn_address_nq60.action_import_wards
+#: model:ir.ui.menu,name:vn_address_nq60.menu_import_wards
+msgid "Import wards"
+msgstr ""
+
+#. module: vn_address_nq60
+#: model:ir.model.fields,field_description:vn_address_nq60.field_res_country_wards__is_new
+msgid "Is New Wards"
+msgstr "Là xã mới"
+
+#. module: vn_address_nq60
+#: model:ir.model.fields,field_description:vn_address_nq60.field_import_wards__write_uid
+#: model:ir.model.fields,field_description:vn_address_nq60.field_import_wards_line__write_uid
+msgid "Last Updated by"
+msgstr "Cập nhật lần cuối bởi"
+
+#. module: vn_address_nq60
+#: model:ir.model.fields,field_description:vn_address_nq60.field_import_wards__write_date
+#: model:ir.model.fields,field_description:vn_address_nq60.field_import_wards_line__write_date
+msgid "Last Updated on"
+msgstr "Cập nhật lần cuối"
+
+#. module: vn_address_nq60
+#: model:ir.model.fields,field_description:vn_address_nq60.field_import_wards__line_ids
+msgid "Lines"
+msgstr "Dòng"
+
+#. module: vn_address_nq60
+#: model_terms:ir.ui.view,arch_db:vn_address_nq60.view_import_wards_form
+msgid "Load"
+msgstr "Nạp"
+
+#. module: vn_address_nq60
+#: model:ir.model.fields,field_description:vn_address_nq60.field_import_wards_line__map_with_state_ids
+#: model:ir.model.fields,field_description:vn_address_nq60.field_res_country_state__map_with_state_ids
+#: model:ir.model.fields,field_description:vn_address_nq60.field_res_country_wards__map_with_state_ids
+msgid "Map With State"
+msgstr "Sáp nhập với tỉnh"
+
+#. module: vn_address_nq60
+#: model:ir.model.fields,field_description:vn_address_nq60.field_res_country_wards__map_with_wards_ids
+msgid "Map With Wards"
+msgstr "Sáp nhập với xã"
+
+#. module: vn_address_nq60
+#: model_terms:ir.ui.view,arch_db:vn_address_nq60.res_country_wards_tree
+#: model_terms:ir.ui.view,arch_db:vn_address_nq60.view_country_state_tree
+msgid "Merge"
+msgstr "Gộp"
+
+#. module: vn_address_nq60
+#: model:ir.model.fields,field_description:vn_address_nq60.field_import_wards_line__name
+msgid "Name"
+msgstr "Tên"
+
+#. module: vn_address_nq60
+#: model:ir.model.fields,field_description:vn_address_nq60.field_import_wards_line__stt
+msgid "STT"
+msgstr ""
+
+#. module: vn_address_nq60
+#: model:ir.model.fields,field_description:vn_address_nq60.field_import_wards_line__state_id
+msgid "State"
+msgstr "Tỉnh/TP"
+
+#. module: vn_address_nq60
+#: model:ir.model.fields,field_description:vn_address_nq60.field_import_wards_line__state_name
+msgid "State Name"
+msgstr "Tên tỉnh"
+
+#. module: vn_address_nq60
+#: model:ir.model,name:vn_address_nq60.model_res_country_wards
+#: model:ir.model.fields,field_description:vn_address_nq60.field_import_wards_line__wards_id
+#: model_terms:ir.ui.view,arch_db:vn_address_nq60.view_import_wards_form
+msgid "Wards"
+msgstr "Phường/Xã/Thị trấn"
