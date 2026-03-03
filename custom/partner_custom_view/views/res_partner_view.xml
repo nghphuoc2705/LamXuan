@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record model="ir.ui.view" id="view_partner_form_custom">
+        <field name="name">res.partner.form.custom</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='vat']" position="before">
+                <field name="address_temp" invisible="type_partner != 'customer'"/>
+                <field name="region_id" invisible="type_partner != 'supplier'"/>
+            </xpath>
+            <xpath expr="//field[@name='vat']" position="after">
+                <field name="code_partner" invisible="type_partner != 'customer'"/>
+                <field name="branch_code" invisible="type_partner != 'customer'"/>
+                <field name="vendor_code" invisible="type_partner != 'supplier'"/>
+            </xpath>
+            <xpath expr="//field[@name='category_id']" position="after">
+                <field name="cccd"/>
+                <field name="category_type_partner_id" invisible="type_partner != 'customer'"/>
+            </xpath>
+            <xpath expr="//field[@name='company_registry']" position="after">
+                <field name="user_create_id" />
+            </xpath>
+            <xpath expr="//field[@name='company_type']" position="after">
+                <field name="type_partner"  widget="radio" invisible="company_type == 'company'" options="{'horizontal': true}"/>
+            </xpath>
+            <group name="sale" position="inside">
+                <field name="currency_id" invisible="1"/>
+                <field name="receivable_current" readonly="1" invisible="type_partner != 'customer'"/>
+                <field name="total_sale" readonly="1" invisible="type_partner != 'customer'"/>
+                <field name="total_sale_net" readonly="1" invisible="type_partner != 'customer'"/>
+            </group>
+            <group name="purchase" position="inside">
+                <field name="currency_id" invisible="1"/>
+                <field name="payable_current" readonly="1" invisible="type_partner != 'supplier'"/>
+                <field name="total_purchase" readonly="1" invisible="type_partner != 'supplier'"/>
+                <field name="total_purchase_net" readonly="1" invisible="type_partner != 'supplier'"/>
+            </group>
+
+        </field>
+    </record>
+
+    <!-- List Khách hàng: chỉ cột sale -->
+    <record id="view_partner_tree_customers" model="ir.ui.view">
+        <field name="name">res.partner.list.customers</field>
+        <field name="model">res.partner</field>
+        <field name="arch" type="xml">
+            <list string="Khách hàng">
+                <field name="code_partner" optional="show"/>
+                <field name="complete_name" string="Name" width="400px"/>
+                <field name="full_address_vi" width="500px"/>
+                <field name="phone" class="o_force_ltr" optional="show"/>
+                <field name="mobile" optional="hide"/>
+                <field name="email" optional="hide"/>
+                <field name="user_id" optional="hide" widget="many2one_avatar_user" domain="[('share', '=', False)]"/>
+                <field name="street" optional="hide"/>
+                <field name="city" optional="hide"/>
+                <field name="state_id" optional="hide" readonly="1"/>
+                <field name="country_id" optional="hide" readonly="1"/>
+                <field name="vat" optional="hide" readonly="1"/>
+                <field name="type_partner" optional="hide"/>
+                <field name="receivable_current" readonly="1" optional="show" width="200px"/>
+                <field name="total_sale" readonly="1" optional="show" width="200px"/>
+                <field name="total_sale_net" readonly="1" optional="show" width="200px"/>
+            </list>
+        </field>
+    </record>
+
+    <!-- List Nhà cung cấp: chỉ cột purchase -->
+    <record id="view_partner_tree_suppliers" model="ir.ui.view">
+        <field name="name">res.partner.list.suppliers</field>
+        <field name="model">res.partner</field>
+        <field name="arch" type="xml">
+            <list string="Nhà cung cấp">    
+                <field name="vendor_code" optional="show"/>
+                <field name="complete_name" string="Name" width="400px"/>
+                <field name="full_address_vi" width="500px"/>
+                <field name="phone" class="o_force_ltr" optional="hide"/>
+                <field name="mobile" optional="hide"/>
+                <field name="email" optional="hide"/>
+                <field name="user_id" optional="hide" widget="many2one_avatar_user" domain="[('share', '=', False)]"/>
+                <field name="street" optional="hide"/>
+                <field name="city" optional="hide"/>
+                <field name="state_id" optional="hide" readonly="1"/>
+                <field name="country_id" optional="hide" readonly="1"/>
+                <field name="vat" optional="hide" readonly="1"/>
+                <field name="type_partner" optional="hide"/>
+                <field name="payable_current" readonly="1" optional="show" width="200px"/>
+                <field name="total_purchase" readonly="1" optional="show" width="200px"/>
+                <field name="total_purchase_net" readonly="1" optional="show" width="200px"/>
+            </list>
+        </field>
+    </record>
+
+
+        <record id="view_partner_property_form" model="ir.ui.view">
+            <field name="name">res.partner.property.form.inherit</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="account.view_partner_property_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='property_supplier_payment_term_id']" position="attributes">
+                    <attribute name="invisible">1</attribute>
+                </xpath>
+
+                <xpath expr="//field[@name='property_outbound_payment_method_line_id']" position="attributes">
+                    <attribute name="invisible">1</attribute>
+                </xpath>
+                <xpath expr="//field[@name='property_payment_term_id']" position="attributes">
+                    <attribute name="invisible">1</attribute>
+                </xpath>
+                <xpath expr="//field[@name='property_inbound_payment_method_line_id']" position="attributes">
+                    <attribute name="invisible">1</attribute>
+                </xpath>
+            </field>
+        </record>
+
+    <record id="view_partner_property_form_inherit_purchase" model="ir.ui.view">
+        <field name="name">res.partner.purchase.property.form.inherit</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="purchase.view_partner_property_form"/>
+        <field name="priority">36</field>
+        <field name="arch" type="xml">
+            <div name="receipt_reminder" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </div>
+            <xpath expr="//field[@name='property_purchase_currency_id']" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

@@ -120,7 +120,7 @@
         <field name="inherit_id" ref="base.view_partner_tree"/>
         <field name="arch" type="xml">
             <field name="complete_name" position="after">
-                <field name="full_address_vi"/>
+                <field name="full_address_vi" width="400px"/>
             </field>
         </field>
     </record>

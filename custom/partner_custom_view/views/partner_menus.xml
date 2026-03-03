@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Action: Khách hàng (type_partner = customer) -->
+    <record id="action_partner_custom_customers" model="ir.actions.act_window">
+        <field name="name">Khách hàng</field>
+        <field name="res_model">res.partner</field>
+        <field name="view_mode">kanban,list,form</field>
+        <field name="domain">[('type_partner', '=', 'customer')]</field>
+        <field name="context">{'default_is_company': True, 'default_type_partner': 'customer'}</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Tạo khách hàng mới trong sổ địa chỉ
+            </p>
+        </field>
+    </record>
+    <!-- List view dùng cho action Khách hàng -->
+    <record id="action_partner_custom_customers_view_list" model="ir.actions.act_window.view">
+        <field name="sequence" eval="2"/>
+        <field name="view_mode">list</field>
+        <field name="view_id" ref="view_partner_tree_customers"/>
+        <field name="act_window_id" ref="action_partner_custom_customers"/>
+    </record>
+
+    <!-- Action: Nhà cung cấp (type_partner = supplier) -->
+    <record id="action_partner_custom_suppliers" model="ir.actions.act_window">
+        <field name="name">Nhà cung cấp</field>
+        <field name="res_model">res.partner</field>
+        <field name="view_mode">kanban,list,form</field>
+        <field name="domain">[('type_partner', '=', 'supplier')]</field>
+        <field name="context">{'default_is_company': True, 'default_type_partner': 'supplier'}</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Tạo nhà cung cấp mới trong sổ địa chỉ
+            </p>
+        </field>
+    </record>
+    <!-- List view dùng cho action Nhà cung cấp -->
+    <record id="action_partner_custom_suppliers_view_list" model="ir.actions.act_window.view">
+        <field name="sequence" eval="2"/>
+        <field name="view_mode">list</field>
+        <field name="view_id" ref="view_partner_tree_suppliers"/>
+        <field name="act_window_id" ref="action_partner_custom_suppliers"/>
+    </record>
+
+    <!-- Menu con dưới Contacts: Khách hàng -->
+    <menuitem id="menu_partner_custom"
+        name="Khách hàng và Nhà cung cấp"
+        parent="contacts.menu_contacts"
+        sequence="1">
+    </menuitem>
+        <menuitem id="menu_partner_custom_customers"
+            name="Khách hàng"
+            action="action_partner_custom_customers"
+            parent="menu_partner_custom"
+            sequence="1"/>
+        <menuitem id="menu_partner_custom_suppliers"
+            name="Nhà cung cấp"
+            action="action_partner_custom_suppliers"
+            parent="menu_partner_custom"
+            sequence="2"/>
+
+
+</odoo>
