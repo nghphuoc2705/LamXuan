@@ -141,3 +141,12 @@ class ResPartner(models.Model):
                     order.date_order.date() if order.date_order else fields.Date.context_today(self),
                 )
             partner.total_purchase = total
+
+    @api.model_create_multi
+    def create(self, vals_list):
+        res = super(ResPartner, self).create(vals_list)
+        for partner in res:
+            partner.write({
+                'user_create_id': self.env.user.id,
+            })
+        return res
