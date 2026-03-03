@@ -11,12 +11,14 @@
         the customer-specific price if available.
     """,
     'author': 'Custom Development',
-    'depends': ['sale', 'product'],
+    'depends': ['sale', 'product', 'account'],
     'data': [
         'security/product_security.xml',
         'security/ir.model.access.csv',
         'views/product_customerinfo_views.xml',
         'views/product_views.xml',
+        'views/sale_order_view.xml',
+        'views/account_invoice_views.xml',
     ],
     'installable': True,
     'application': False,
