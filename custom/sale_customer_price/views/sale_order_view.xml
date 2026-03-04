@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <record model="ir.ui.view" id="sale_order_view_custom">
+    <!-- <record model="ir.ui.view" id="sale_order_view_custom">
         <field name="name">sale.order.view.custom</field>
         <field name="model">sale.order</field>
         <field name="inherit_id" ref="sale.view_order_form"/>
         <field name="arch" type="xml">
-            <!-- Chiết khấu % trên dòng đơn hàng (form dòng) - sau khối discount -->
             <xpath expr="//field[@name='order_line']/form//t[@groups='sale.group_discount_per_so_line']" position="after">
                 <label for="line_discount_pct"/>
                 <div name="line_discount_pct">
                     <field name="line_discount_pct" class="oe_inline"/> %
                 </div>
             </xpath>
-            <!-- Chiết khấu % trên list dòng đơn hàng -->
             <xpath expr="//field[@name='order_line']/list/field[@name='discount']" position="after">
                 <field name="line_discount_pct" string="CK %" width="50px" optional="show"/>
             </xpath>
         </field>
-    </record>
+    </record> -->
 </odoo>
