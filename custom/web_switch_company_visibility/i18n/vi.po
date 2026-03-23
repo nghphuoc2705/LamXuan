@@ -1,0 +1,21 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* web_switch_company_visibility
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-23 07:46+0000\n"
+"PO-Revision-Date: 2026-03-23 07:46+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: web_switch_company_visibility
+#: model:res.groups,name:web_switch_company_visibility.group_switch_company_dropdown
+msgid "Show Switch Company Dropdown"
+msgstr "Hiển thị menu chuyển đổi Công ty"
